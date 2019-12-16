@@ -13,7 +13,7 @@ describe 'Movie' do
 
   context 'Movie.new' do
     let(:movie) { Movie.new }
-    it 'has a title' do
+      it 'has a title' do
       movie.title = "The Matrix"
       expect(movie.title).to eq("The Matrix")
     end
