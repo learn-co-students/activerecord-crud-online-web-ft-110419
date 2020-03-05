@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2019_12_17_213609) do
     t.string "director"
     t.string "lead"
     t.boolean "in_theaters"
+    # #<Movie id: nil, title: "The Sting", release_date: 1973, director: "George Roy Hill", lead: "Paul Newman", in_theaters: false, created_at: nil, updated_at: nil>
   end
 
 end
